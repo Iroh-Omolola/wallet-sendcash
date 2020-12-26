@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+body{
+    width: 100vh;
+    height: 100%;
+    background: rgb(177, 175, 175);
+}
+.wallet{
+    width: 350px;
+    height: 400px;
+    background: #fff;
+    margin-left: 470px;
+    margin-top: 70px;
+    border-radius: 3%;
+}
+p{
+    font-size: 12px;
+    margin-top: 30px;
+    
+}
+h6{
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 17px;
+    margin-top: 30px;
+}
+.send-details{
+    margin-top: 50px;
+    color: rgb(110, 109, 109);
+    
+}
+.amount{
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 0.5px solid rgb(230, 228, 228);
+    box-shadow: rgb(232, 228, 228);
+    width: 305px;
+    height: 59px;
+    margin-left: 20px;
+    
+}
+.USD{
+    display: flex;
+    margin-top: -20px;
+    border-bottom: 0.5px solid rgb(230, 228, 228);
+    box-shadow: rgb(232, 228, 228);
+    width: 305px;
+    height: 60px;
+    margin-left: 20px;
+    
+}
+.receive{
+    display: flex;
+    margin-top: -20px;
+    border-bottom: 0.5px solid rgb(230, 228, 228);
+    box-shadow: rgb(232, 228, 228);
+    width: 305px;
+    height: 60px;
+    margin-left: 20px;
+    
+}
+.refresh{
+    display: flex;
+    margin-top: -20px;
+    box-shadow: rgb(232, 228, 228);
+    width: 305px;
+    height: 60px;
+    margin-left: 20px;
+}
+.btn{
+ margin-left: 20px;
+ margin-top: 15px;
+}
+.edit-btn{
+    padding: 6px 12px;
+    border: 0.5px solid  rgb(69, 69, 230);
+    border-radius: 35px;
+    color:  rgb(69, 69, 230);
+    cursor: pointer;
+}
+
+.BTC-btn{
+    padding: 7px 18px;
+    background-color:   rgb(69, 69, 230);
+    border: none;
+    border-radius: 30px;
+    color:  #fff;
+    font-size: 12px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.wallet-btn{
+    padding: 7px 18px;
+    background-color:   rgb(69, 69, 230);
+    border: none;
+    border-radius: 30px;
+    color:  #fff;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wallet-address{
+    background: #eeeff0;
+    display: flex;
+    margin-top: 20px;
+    height: 155px;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+.wallet-address img{
+    margin-top: 28px;
+    margin-left: 30px;
+}
+.wallet-address p{
+    margin-left: 10px;
+    width: 210px;
+    margin-top: 35px;
+    color: rgb(110, 109, 109) ;
+}
